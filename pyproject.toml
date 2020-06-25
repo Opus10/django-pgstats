@@ -14,7 +14,7 @@ packages = [
 ]
 version = "0.0.0"
 description = "Commands and models for tracking internal postgres stats."
-authors = ["Jyve Engineering"]
+authors = ["Wes Kendall", "Tómas Árni Jónasson"]
 classifiers = [
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
@@ -39,7 +39,7 @@ django = ">=2"
 black = "=19.10b0"
 boto3 = "=1.9.243"
 dj-database-url = "^0.5.0"
-flake8 = "=3.7.9"
+flake8 = "=3.7.8"
 flake8-bugbear = "=19.8.0"
 flake8-comprehensions = "=2.2.0"
 flake8-import-order = "=0.18.1"

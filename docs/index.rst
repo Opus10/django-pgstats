@@ -1,7 +1,20 @@
 django-pgstats
-=======================================================================
+==============
 
-Welcome to the docs for django-pgstats! It doesn't appear that
-the author has created any Sphinx docs for their project yet. Try
-viewing the `README <https://github.com/jyveapp/django-pgstats>`_
-of their project for documentation.
+``django-pgstats`` provides commands and models for tracking internal postgres
+stats. Specifically, the `IndexStats` model stores stats about postgres
+indices and the `TableStats` model stores stats about postgres tables.
+
+Usage
+-----
+
+Postgres stat tables contain global statistical information. ``django-pgstats``
+is meant to be executed periodically so that one can later analyze table
+and index usage. This is done by periodically calling
+``python manage.py snapshot_pgstats`` using a task runner such
+as [Celery](http://www.celeryproject.org/).
+
+Stats are stored as JSON fields in the respective `IndexStats` and `TableStats`
+models. Each key in the JSON field is in the format of
+``{schema}.{table}`` for table stats or ``{schema}.{table}.{index}`` for index
+stats.
