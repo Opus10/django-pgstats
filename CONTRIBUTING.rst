@@ -10,7 +10,7 @@ Setup
 
 Set up your development environment with::
 
-    git clone git@github.com:jyveapp/django-pgstats.git
+    git clone git@github.com:Opus10/django-pgstats.git
     cd django-pgstats
     make setup
 
