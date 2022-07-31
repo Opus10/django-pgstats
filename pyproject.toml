@@ -27,7 +27,7 @@ name = "django-pgstats"
 packages = [
   { include = "pgstats" }
 ]
-version = "1.0.2"
+version = "1.0.3"
 description = "Commands and models for tracking internal postgres stats."
 authors = ["Wes Kendall", "Tómas Árni Jónasson"]
 classifiers = [
