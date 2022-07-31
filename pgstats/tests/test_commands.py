@@ -23,7 +23,5 @@ def test_snapshot_pgstats():
     # We should have at least two indices for the primary keys of the two
     # django models in this app
     assert len(index_stats.stats) >= 2
-    indices_from_this_app = [
-        key for key in index_stats.stats if key.startswith('public.pgstats_')
-    ]
+    indices_from_this_app = [key for key in index_stats.stats if key.startswith('public.pgstats_')]
     assert len(indices_from_this_app) == 2
