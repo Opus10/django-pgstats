@@ -13,20 +13,20 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='IndexStats',
+            name="IndexStats",
             fields=[
                 (
-                    'id',
+                    "id",
                     models.AutoField(
                         auto_created=True,
                         primary_key=True,
                         serialize=False,
-                        verbose_name='ID',
+                        verbose_name="ID",
                     ),
                 ),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
                 (
-                    'stats',
+                    "stats",
                     django.contrib.postgres.fields.jsonb.JSONField(
                         encoder=django.core.serializers.json.DjangoJSONEncoder
                     ),
@@ -34,20 +34,20 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='TableStats',
+            name="TableStats",
             fields=[
                 (
-                    'id',
+                    "id",
                     models.AutoField(
                         auto_created=True,
                         primary_key=True,
                         serialize=False,
-                        verbose_name='ID',
+                        verbose_name="ID",
                     ),
                 ),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
                 (
-                    'stats',
+                    "stats",
                     django.contrib.postgres.fields.jsonb.JSONField(
                         encoder=django.core.serializers.json.DjangoJSONEncoder
                     ),
