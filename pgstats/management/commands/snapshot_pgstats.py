@@ -4,7 +4,7 @@ import pgstats.models
 
 
 class Command(BaseCommand):
-    help = 'Snapshot postgres table and index stats'
+    help = "Snapshot postgres table and index stats"
 
     def handle(self, *args, **options):
         pgstats.models.IndexStats.objects.create_snapshot()
