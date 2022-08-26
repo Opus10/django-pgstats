@@ -33,6 +33,11 @@ version = "1.0.6"
 description = "Commands and models for tracking internal postgres stats."
 authors = ["Wes Kendall", "Tómas Árni Jónasson"]
 classifiers = [
+  "Framework :: Django",
+  "Framework :: Django :: 2.2",
+  "Framework :: Django :: 3.2",
+  "Framework :: Django :: 4.0",
+  "Framework :: Django :: 4.1",
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "Programming Language :: Python",
