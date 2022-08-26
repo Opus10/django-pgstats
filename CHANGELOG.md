@@ -1,4 +1,8 @@
 # Changelog
+## 1.0.7 (2022-08-26)
+### Trivial
+  - Test against Django 4.1 and other CI improvements [Wes Kendall, a79dd28]
+
 ## 1.0.6 (2022-08-24)
 ### Trivial
   - Fix ReadTheDocs builds [Wes Kendall, a30b183]
