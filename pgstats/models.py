@@ -1,7 +1,21 @@
-from django.contrib.postgres.fields import JSONField
+import django
 from django.core.serializers.json import DjangoJSONEncoder
 from django.db import connection
 from django.db import models
+
+
+# Django>=3.1 changes the location of JSONField
+if django.VERSION >= (3, 1):
+    from django.db.models import JSONField as DjangoJSONField
+else:
+    from django.contrib.postgres.fields import JSONField as DjangoJSONField
+
+
+class JSONField(DjangoJSONField):
+    """
+    Creates a consistent import path for JSONField regardless of Django
+    version.
+    """
 
 
 def dict_fetchall(cursor):
