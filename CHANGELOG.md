@@ -1,4 +1,9 @@
 # Changelog
+## 1.0.8 (2022-10-14)
+### Trivial
+  - Update with latest Django template [Wesley Kendall, 181b90d]
+  - Fix JSONField deprecation warnings with Django 4. [Omen Apps, 614cb0a]
+
 ## 1.0.7 (2022-08-26)
 ### Trivial
   - Test against Django 4.1 and other CI improvements [Wes Kendall, a79dd28]
