@@ -1,4 +1,10 @@
 # Changelog
+## 1.1.0 (2023-06-08)
+### Feature
+  - Added Python 3.11, Django 4.2, and Psycopg 3 support [Wesley Kendall, 8552e39]
+
+    Adds Python 3.11, Django 4.2, and Psycopg 3 support along with tests for multiple Postgres versions. Drops support for Django 2.2.
+
 ## 1.0.8 (2022-10-14)
 ### Trivial
   - Update with latest Django template [Wesley Kendall, 181b90d]
