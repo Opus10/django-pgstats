@@ -16,6 +16,11 @@ models. Each key in the JSON field is in the format of
 ``{schema}.{table}`` for table stats or ``{schema}.{table}.{index}`` for index
 stats.
 
+Compatibility
+=============
+
+``django-pgstats`` is compatible with Python 3.7 - 3.11, Django 3.2 - 4.2, Psycopg 2 - 3 and Postgres 12 - 15.
+
 Documentation
 =============
 

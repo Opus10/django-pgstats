@@ -7,7 +7,7 @@ from django.db import models
 # Django>=3.1 changes the location of JSONField
 if django.VERSION >= (3, 1):
     from django.db.models import JSONField as DjangoJSONField
-else:
+else:  # pragma: no cover
     from django.contrib.postgres.fields import JSONField as DjangoJSONField
 
 
