@@ -1,8 +1,6 @@
 import django
 from django.core.serializers.json import DjangoJSONEncoder
-from django.db import connection
-from django.db import models
-
+from django.db import connection, models
 
 # Django>=3.1 changes the location of JSONField
 if django.VERSION >= (3, 1):
