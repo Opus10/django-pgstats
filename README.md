@@ -16,7 +16,7 @@ Stats are stored as JSON fields in the respective `IndexStats` and `TableStats` 
 
 ## Installation
 
-Install `django-pgstats` with::
+Install `django-pgstats` with:
 
     pip3 install django-pgstats
 
