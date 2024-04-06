@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 (2024-04-06)
+
+### Trivial
+
+  - Fix ReadTheDocs builds. [Wesley Kendall, b289fe8]
+
 ## 1.3.0 (2023-11-26)
 
 ### Feature
