@@ -19,14 +19,13 @@ Stats are stored as JSON fields in the respective `IndexStats` and `TableStats` 
 Install `django-pgstats` with:
 
     pip3 install django-pgstats
-
 After this, add `pgstats` to the `INSTALLED_APPS` setting of your Django project.
 
 ## Contributing Guide
 
 For information on setting up django-pgstats for development and contributing changes, view [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Primary Authors
+## Creators
 
 - @wesleykendall (Wes Kendall)
 - @tomage (Tómas Árni Jónasson)
