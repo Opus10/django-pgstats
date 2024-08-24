@@ -1,14 +1,20 @@
 # Changelog
 
+## 1.4.0 (2024-08-24)
+
+#### Changes
+
+  - Django 5.1 compatibilty, and Dropped Django 3.2 / Postgres 12 support by [@wesleykendall](https://github.com/wesleykendall) in [#21](https://github.com/Opus10/django-pgstats/pull/21).
+
 ## 1.3.1 (2024-04-06)
 
-### Trivial
+#### Trivial
 
   - Fix ReadTheDocs builds. [Wesley Kendall, b289fe8]
 
 ## 1.3.0 (2023-11-26)
 
-### Feature
+#### Feature
 
   - Django 5.0 compatibility [Wesley Kendall, edd37ae]
 
@@ -16,13 +22,13 @@
 
 ## 1.2.1 (2023-10-09)
 
-### Trivial
+#### Trivial
 
   - Added Opus10 branding to docs [Wesley Kendall, 54f6aeb]
 
 ## 1.2.0 (2023-10-08)
 
-### Feature
+#### Feature
 
   - Add Python 3.12 support and use Mkdocs for documentation [Wesley Kendall, b7ba5f7]
 
@@ -32,7 +38,7 @@
 
 ## 1.1.0 (2023-06-09)
 
-### Feature
+#### Feature
 
   - Added Python 3.11, Django 4.2, and Psycopg 3 support [Wesley Kendall, 8552e39]
 
@@ -40,56 +46,56 @@
 
 ## 1.0.8 (2022-10-14)
 
-### Trivial
+#### Trivial
 
   - Update with latest Django template [Wesley Kendall, 181b90d]
   - Fix JSONField deprecation warnings with Django 4. [Omen Apps, 614cb0a]
 
 ## 1.0.7 (2022-08-26)
 
-### Trivial
+#### Trivial
 
   - Test against Django 4.1 and other CI improvements [Wes Kendall, a79dd28]
 
 ## 1.0.6 (2022-08-24)
 
-### Trivial
+#### Trivial
 
   - Fix ReadTheDocs builds [Wes Kendall, a30b183]
 
 ## 1.0.5 (2022-08-20)
 
-### Trivial
+#### Trivial
 
   - Updated with latest Django template [Wes Kendall, 2c47ac7]
 
 ## 1.0.4 (2022-08-20)
 
-### Trivial
+#### Trivial
 
   - Fix release note rendering and code formatting changes [Wes Kendall, 08f2691]
 
 ## 1.0.3 (2022-07-31)
 
-### Trivial
+#### Trivial
 
   - Updated with latest Django template, fixing doc builds [Wes Kendall, ef15173]
 
 ## 1.0.2 (2021-06-06)
 
-### Trivial
+#### Trivial
 
   - Updated with the latest Django template [Wes Kendall, 7000d5d]
 
 ## 1.0.1 (2020-06-29)
 
-### Trivial
+#### Trivial
 
   - Added more information to the README [Wes Kendall, acee174]
 
 ## 1.0.0 (2020-06-25)
 
-### Api-Break
+#### Api-Break
 
   - Initial release of django-pgstats [Wes Kendall, 7933b73]
 
